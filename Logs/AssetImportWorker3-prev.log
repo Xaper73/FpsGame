@@ -1,0 +1,960 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 7  (6.1.0) 64bit Ultimate' Language: 'ru' Physical Memory: 4079 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UnityHub\2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Fps Game
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+55895
+Successfully changed project path to: D:/Fps Game
+D:/Fps Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 349.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path D:/UnityHub/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Fps Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+d3d11: CreateDXGIFactory2(...) not found, fallbacking to CreateDXGIFactory1(...).
+d3d11: D3D_FEATURE_LEVEL_11_1 not-recognized (only 11.0 runtime installed?)
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon (TM) R9 370 Series (ID=0x6811)
+    Vendor:   ATI
+    VRAM:     4077 MB
+    Driver:   27.20.15003.1004
+Initialize mono
+Mono path[0] = 'D:/UnityHub/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityHub/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityHub/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityHub/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/UnityHub/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006854 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 344.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.252 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2253ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1677ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (424ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (128ms)
+			SetupLoadedEditorAssemblies (967ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (345ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (440ms)
+				ProcessInitializeOnLoadMethodAttributes (154ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013480 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 347.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.927 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6929ms)
+		BeginReloadAssembly (362ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (5940ms)
+			LoadAssemblies (1653ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1190ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (250ms)
+			SetupLoadedEditorAssemblies (2676ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (347ms)
+				BeforeProcessingInitializeOnLoad (335ms)
+				ProcessInitializeOnLoadAttributes (1798ms)
+				ProcessInitializeOnLoadMethodAttributes (172ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.66 seconds
+Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3936 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (184.7 KB). Loaded Objects now: 4398.
+Memory consumption went from 214.2 MB to 214.0 MB.
+Total: 13.573995 ms (FindLiveObjects: 0.691536 ms CreateObjectMapping: 0.496742 ms MarkObjects: 11.893620 ms  DeleteObjects: 0.488690 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11984.888000 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Tower_01_Snow_Convex.asset
+  artifactKey: Guid(4776f1974c8368c4cb9de03c344498a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Tower_01_Snow_Convex.asset using Guid(4776f1974c8368c4cb9de03c344498a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa937a86abb9a67f4eda1c034c2262aa') in 0.799103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Window_02_Snow_Convex.asset
+  artifactKey: Guid(b126c7d5952977c49b731f79e2495592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Window_02_Snow_Convex.asset using Guid(b126c7d5952977c49b731f79e2495592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc579ce3ae43726e0b7525ec82f81beb') in 0.041852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Window_05_Snow_Convex.asset
+  artifactKey: Guid(59c22fb8491e6144d822831f1a09fc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Window_05_Snow_Convex.asset using Guid(59c22fb8491e6144d822831f1a09fc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af66ed00100a16512315abd4405a1dcc') in 0.039198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_StepsSmall_01_Snow_Convex.asset
+  artifactKey: Guid(0899f3f1fdf546547af4603cb59df879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_StepsSmall_01_Snow_Convex.asset using Guid(0899f3f1fdf546547af4603cb59df879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e60a2f72e00f39e50f3f2994ae337e1') in 0.040155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_06_Snow_Convex.asset
+  artifactKey: Guid(5e0797362a3d88a4691e06e5c2227288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_06_Snow_Convex.asset using Guid(5e0797362a3d88a4691e06e5c2227288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3b7af8bd1fa18ea64572bd739a06be') in 0.036724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_01_Convex 1.asset
+  artifactKey: Guid(f29843586e448a3458e961f941257e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_01_Convex 1.asset using Guid(f29843586e448a3458e961f941257e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729ed1638dab3c1c6b6adcc2d16ef486') in 0.078451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_01_Snow_Convex.asset
+  artifactKey: Guid(17bc4016de95b034ebd3e47bc15126ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_01_Snow_Convex.asset using Guid(17bc4016de95b034ebd3e47bc15126ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c7baf7d549c8bc5e63d766c4fff582') in 0.022296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_05_Snow_Convex.asset
+  artifactKey: Guid(8d7460a0eafcb574e9b8d016e1a4fa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_05_Snow_Convex.asset using Guid(8d7460a0eafcb574e9b8d016e1a4fa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307c75ee6e8fbd52ebf931609b117b42') in 0.022253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Window_01_Convex.asset
+  artifactKey: Guid(1fc4affa78e1be94298d95bbe89827bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Window_01_Convex.asset using Guid(1fc4affa78e1be94298d95bbe89827bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6507f63ddbe109ad974e9023e5359df') in 0.064729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTall_04_Convex 1.asset
+  artifactKey: Guid(455b1e97de69e314d94a403d22a8c03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTall_04_Convex 1.asset using Guid(455b1e97de69e314d94a403d22a8c03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38925809315bc3ee3ea0a589378728a2') in 0.079116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_02_Convex 1.asset
+  artifactKey: Guid(3c96ff987ab8082459121fc358f65d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_02_Convex 1.asset using Guid(3c96ff987ab8082459121fc358f65d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b0014dfda2f476f377ba16c5bf0dee') in 0.042996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Room_03_Snow_Convex.asset
+  artifactKey: Guid(cb3191a16673e2744a2a72e2bdc874da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Room_03_Snow_Convex.asset using Guid(cb3191a16673e2744a2a72e2bdc874da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c13f54b3f5dc6f279e14d5aa27276d5') in 0.060299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_02_Convex 1.asset
+  artifactKey: Guid(60299f77cca5b8d478c89bf945c37a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_02_Convex 1.asset using Guid(60299f77cca5b8d478c89bf945c37a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a37e888a089063305334a35146ce70') in 0.077333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_07_Convex.asset
+  artifactKey: Guid(a261cfa8a3310494abdc13ed4ed05646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_07_Convex.asset using Guid(a261cfa8a3310494abdc13ed4ed05646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c3c639194362217da5bd0a7e16b6e0') in 0.053408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_04_Snow_Convex.asset
+  artifactKey: Guid(a23f76d24a2d663438ce2241c15c5825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_04_Snow_Convex.asset using Guid(a23f76d24a2d663438ce2241c15c5825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a4c084fa291c6b9de6e4082d3d63bc') in 0.052452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_03_Snow_Convex.asset
+  artifactKey: Guid(4129da37760438d40af6b1f02b621c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_03_Snow_Convex.asset using Guid(4129da37760438d40af6b1f02b621c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23bb829933339d986c0a073bdd326fd') in 0.057343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_05_Convex.asset
+  artifactKey: Guid(9110e4ba8770a7c48a103445bf0dd769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_05_Convex.asset using Guid(9110e4ba8770a7c48a103445bf0dd769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999dfbd51d5303079f8ca708fb8d50ea') in 0.041596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Tower_01_Convex 1.asset
+  artifactKey: Guid(f1b7f3d15ab793646b30875c13945fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Tower_01_Convex 1.asset using Guid(f1b7f3d15ab793646b30875c13945fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d940fc321b15427182805eb839f3e9') in 0.063022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_Leanto_01_Snow_Convex.asset
+  artifactKey: Guid(ee156c7e1f2c62e4cac327b70f8b0a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_Leanto_01_Snow_Convex.asset using Guid(ee156c7e1f2c62e4cac327b70f8b0a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcc0a8156c7b1ffd6651619ce0b5d54') in 0.036495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_03_Convex 1.asset
+  artifactKey: Guid(6397c91aba6a9e848bdb77694f8de7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_03_Convex 1.asset using Guid(6397c91aba6a9e848bdb77694f8de7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ec4ad9e37559f9c8c180f35eed82c5') in 0.053987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Window_05_Convex.asset
+  artifactKey: Guid(f2bacf2f6de57234d8590e8cf628e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Window_05_Convex.asset using Guid(f2bacf2f6de57234d8590e8cf628e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951ec01eb69dad294299b51e1eedee72') in 0.041217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_04_Convex.asset
+  artifactKey: Guid(b1be75ea0ea28a6469aca2fdb11aaed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_04_Convex.asset using Guid(b1be75ea0ea28a6469aca2fdb11aaed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448e17bec157bd675fa847b77102eb8d') in 0.034631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_06_Convex.asset
+  artifactKey: Guid(d081e480d85d0624e85a57c0ecebbce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_06_Convex.asset using Guid(d081e480d85d0624e85a57c0ecebbce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbc66ab75671b31ac804d5133f279ab') in 0.041200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_03_Convex.asset
+  artifactKey: Guid(a7ca7e186a2884942a72abf35b2e461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_03_Convex.asset using Guid(a7ca7e186a2884942a72abf35b2e461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59970045e0e3b0df5c71578fab235e1') in 0.051007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_Leanto_01_Convex.asset
+  artifactKey: Guid(966d14014183acd409b8bfffb2e4ccd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_Leanto_01_Convex.asset using Guid(966d14014183acd409b8bfffb2e4ccd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6ae210b1596f71cadbf3064b549168') in 0.034258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_01_Convex.asset
+  artifactKey: Guid(99c352e7ee9174a4ca5ccc686205ea96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_01_Convex.asset using Guid(99c352e7ee9174a4ca5ccc686205ea96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff92138aa4f9a4582a40f6583ef68d25') in 0.025343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_07_Snow_Convex.asset
+  artifactKey: Guid(ccc40a01087c530409e3c124a88619a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_07_Snow_Convex.asset using Guid(ccc40a01087c530409e3c124a88619a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdef3bbdbd177c6ce8ac94c5c85e1dc') in 0.030351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Tower_01_Convex.asset
+  artifactKey: Guid(7e4c303213872a84da64262a068c7e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Tower_01_Convex.asset using Guid(7e4c303213872a84da64262a068c7e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093ac96e6eb888d5d5fa1c2c5955cc3a') in 0.032879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_05_Convex.asset
+  artifactKey: Guid(2662ca039cdc0954f94e07e43aab5700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_05_Convex.asset using Guid(2662ca039cdc0954f94e07e43aab5700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc80db5399ddc78fdbb9b2f27a80b27') in 0.082973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_04_Convex 1.asset
+  artifactKey: Guid(bf23ec30bf8bced47be4be7e8f9a4cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_04_Convex 1.asset using Guid(bf23ec30bf8bced47be4be7e8f9a4cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86023bb4f1355af265e8ac5558a04c3d') in 0.151577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Window_01_Snow_Convex.asset
+  artifactKey: Guid(9b441665b05a6264c93ba6e6ff732e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Window_01_Snow_Convex.asset using Guid(9b441665b05a6264c93ba6e6ff732e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119df24d33abdb1a1b06c6162a833acd') in 0.077411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_05_Convex 1.asset
+  artifactKey: Guid(641ec7cf76beda043af1c0591d095fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_05_Convex 1.asset using Guid(641ec7cf76beda043af1c0591d095fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd967653d0567aa634ed9b8a87f99c571') in 0.084489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTall_06_Convex 1.asset
+  artifactKey: Guid(2bae2d44e79cee94bb4d0fc58bc8b2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTall_06_Convex 1.asset using Guid(2bae2d44e79cee94bb4d0fc58bc8b2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b652e2ddd2d53c99e9c56fe64440ad5e') in 0.050624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_07_Snow_Convex.asset
+  artifactKey: Guid(7a1bb861447e14846ba5d17975835c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_07_Snow_Convex.asset using Guid(7a1bb861447e14846ba5d17975835c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff511ae2ec8709fdc5d5761a95f0eae6') in 0.038828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_01_Convex.asset
+  artifactKey: Guid(a1b37895a8e1fe54ba8f140d324bf1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_01_Convex.asset using Guid(a1b37895a8e1fe54ba8f140d324bf1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8d9b00c34590511d0cdb2678ec6216') in 0.030666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Window_03_Snow_Convex.asset
+  artifactKey: Guid(29e5ad9d7a421b847aacf0f74bc11c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Window_03_Snow_Convex.asset using Guid(29e5ad9d7a421b847aacf0f74bc11c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bb3b93ba218ba655bb8e19e4ec7b95') in 0.047956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_02_Snow_Convex.asset
+  artifactKey: Guid(fa8fd48e5474fac4a9ea7225c789e52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_02_Snow_Convex.asset using Guid(fa8fd48e5474fac4a9ea7225c789e52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8c935fa2df8aec1681cf82ee49d8db') in 0.022625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_02_Snow_Convex.asset
+  artifactKey: Guid(ff649b8162b9c4341be61b813db71699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_02_Snow_Convex.asset using Guid(ff649b8162b9c4341be61b813db71699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc3a45b7a3086669683b5d87f995157') in 0.040846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_05_Convex 1.asset
+  artifactKey: Guid(db40acd23f23b4e44a505dd7f33372d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_05_Convex 1.asset using Guid(db40acd23f23b4e44a505dd7f33372d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6ef76885c7dafbea315bde0d17eef8') in 0.037079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_03_Snow_Convex.asset
+  artifactKey: Guid(fa4b86092d9c1214a9fbe91546670ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_03_Snow_Convex.asset using Guid(fa4b86092d9c1214a9fbe91546670ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c66ced63afdfb7393a6ccfe09dde15') in 0.021178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Window_04_Convex.asset
+  artifactKey: Guid(9e064bcd7e93e014c926f9472a41a3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Window_04_Convex.asset using Guid(9e064bcd7e93e014c926f9472a41a3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61eec67cc12bf150e84b271f543aaca') in 0.053136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_06_Convex 1.asset
+  artifactKey: Guid(31e67bb78bd1d8348955069362d06e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_06_Convex 1.asset using Guid(31e67bb78bd1d8348955069362d06e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8ea5f50ab131221d05cdf481ee4988') in 0.056343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_06_Snow_Convex.asset
+  artifactKey: Guid(83b8b31680ea4484fb305ab73d794aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_06_Snow_Convex.asset using Guid(83b8b31680ea4484fb305ab73d794aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c11affb285900cd6e9fd67fd60986fc') in 0.039211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_04_Convex.asset
+  artifactKey: Guid(8298481abc80ce54a975026291ee92bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_04_Convex.asset using Guid(8298481abc80ce54a975026291ee92bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91d0292e9420938411399752f953821') in 0.044335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_04_Snow_Convex.asset
+  artifactKey: Guid(4aacba00de7f6cd4b90b6504b6c78ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_04_Snow_Convex.asset using Guid(4aacba00de7f6cd4b90b6504b6c78ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c67951e74aa689b6f882dc5eead5fc') in 0.040949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Window_04_Snow_Convex.asset
+  artifactKey: Guid(849a36dddcf0fa8429d418f08a78a368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Window_04_Snow_Convex.asset using Guid(849a36dddcf0fa8429d418f08a78a368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73744eed346f4d88fe03a83220bfbe16') in 0.074681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTall_06_Snow_Convex.asset
+  artifactKey: Guid(d6a386ccfd47b714695d4d76c96aa31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTall_06_Snow_Convex.asset using Guid(d6a386ccfd47b714695d4d76c96aa31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af1b96ca8ce81c74f576cafb797d81e') in 0.023280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_StepsSmall_01_Convex 1.asset
+  artifactKey: Guid(ca6fb8070c640fa4fb0c6c4591671d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_StepsSmall_01_Convex 1.asset using Guid(ca6fb8070c640fa4fb0c6c4591671d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1f508e383e8d1a467a1f4e3f1156ca') in 0.032835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_07_Convex 1.asset
+  artifactKey: Guid(ea18205969aeac441b106b80e9030cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_07_Convex 1.asset using Guid(ea18205969aeac441b106b80e9030cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0f5f7f7ecafcdde9ed983ab5b96a00') in 0.039327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Window_01_Convex 1.asset
+  artifactKey: Guid(5cde50f989ea2f14884a66e04b33268d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Window_01_Convex 1.asset using Guid(5cde50f989ea2f14884a66e04b33268d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed948a6598a064d708996970e511608c') in 0.122231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Window_02_Convex.asset
+  artifactKey: Guid(d50d4dff8b77e804b903c2d2cefc8c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Window_02_Convex.asset using Guid(d50d4dff8b77e804b903c2d2cefc8c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25167ae8ac5650acdcc108be324b487') in 0.035615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_01_Convex 1.asset
+  artifactKey: Guid(47fe43497a3f5f446b599e8c09696977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_01_Convex 1.asset using Guid(47fe43497a3f5f446b599e8c09696977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba90f683393b9815db9d1198f39f2539') in 0.062532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_07_Convex.asset
+  artifactKey: Guid(077c8f586b68cef4e821108e2627255e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_07_Convex.asset using Guid(077c8f586b68cef4e821108e2627255e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e9e52823a4d36c4bb43303eb364d76') in 0.030719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Window_02_Convex 1.asset
+  artifactKey: Guid(88de0f284b94aec419dcb50855cd2068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Window_02_Convex 1.asset using Guid(88de0f284b94aec419dcb50855cd2068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95ed4bb549d4b2bfa50dfefcb98ad7f') in 0.052179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_02_Convex.asset
+  artifactKey: Guid(c54067eb85c3cdc439e33aa310a41e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_02_Convex.asset using Guid(c54067eb85c3cdc439e33aa310a41e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df18f905c733c37b153c0dfbb3f3080') in 0.026577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_05_Snow_Convex.asset
+  artifactKey: Guid(f611fc94ff57bbc47921595fe6785d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_05_Snow_Convex.asset using Guid(f611fc94ff57bbc47921595fe6785d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edc65066793aa08997c9dff359afc31') in 0.036554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Room_03_Convex.asset
+  artifactKey: Guid(06493aec1e86c4c469b424c901a62be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Room_03_Convex.asset using Guid(06493aec1e86c4c469b424c901a62be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b93d3964702d4348acb1508dcfaf5b') in 0.035189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_03_Convex 1.asset
+  artifactKey: Guid(ed9e8306d0f566347859eda23f06060e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_03_Convex 1.asset using Guid(ed9e8306d0f566347859eda23f06060e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5433a6a6f7ac04cfba9be09a8940b0c3') in 0.080209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_03_Convex.asset
+  artifactKey: Guid(64bac6b4758b0d140a4253911671a7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_03_Convex.asset using Guid(64bac6b4758b0d140a4253911671a7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36df95c053c4f8423eae8fea547a82f3') in 0.042754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Window_03_Convex 1.asset
+  artifactKey: Guid(75311fda13a8d6845aeb6335c595a8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Window_03_Convex 1.asset using Guid(75311fda13a8d6845aeb6335c595a8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98953a2360b1fb0bb5f68eebaea18d83') in 0.051883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_Window_03_Convex.asset
+  artifactKey: Guid(927d324931c94e547ad5e93c830b24b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_Window_03_Convex.asset using Guid(927d324931c94e547ad5e93c830b24b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec20f2705477abe6ac64a3671f020326') in 0.045881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_04_Convex 1.asset
+  artifactKey: Guid(84ad0f2abfbbc5a4cbd32e1e11964bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_RoomTop_04_Convex 1.asset using Guid(84ad0f2abfbbc5a4cbd32e1e11964bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028bfb5851203b51ff863d47209ed5f9') in 0.048505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_06_Convex 1.asset
+  artifactKey: Guid(ee2fae4a123d91b4aabe9aa3fe42c817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_06_Convex 1.asset using Guid(ee2fae4a123d91b4aabe9aa3fe42c817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d96f065379f9f14e26ad6144ec3b38') in 0.072285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_StepsSmall_01_Convex.asset
+  artifactKey: Guid(8155d1e12176fba40ab8f8bc0c86cde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_StepsSmall_01_Convex.asset using Guid(8155d1e12176fba40ab8f8bc0c86cde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53586bd22fe9c65ca7260e0458c7ce3e') in 0.066106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_01_Snow_Convex.asset
+  artifactKey: Guid(34274f18063c7b04a963b2771ce20b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_01_Snow_Convex.asset using Guid(34274f18063c7b04a963b2771ce20b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3dd54dc11b15f5fa1264088697d05d8') in 0.044363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_06_Convex.asset
+  artifactKey: Guid(ec6f7c031e9c8bc40a94aa0874b88711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_House_TopRoomSmall_06_Convex.asset using Guid(ec6f7c031e9c8bc40a94aa0874b88711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715cd1ac844aa10277c619e07ed26a3d') in 0.027661 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011800 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.968 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3970ms)
+		BeginReloadAssembly (402ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (3187ms)
+			LoadAssemblies (260ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1138ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (174ms)
+			SetupLoadedEditorAssemblies (1430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (214ms)
+				ProcessInitializeOnLoadAttributes (1011ms)
+				ProcessInitializeOnLoadMethodAttributes (147ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3928 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (152.3 KB). Loaded Objects now: 4422.
+Memory consumption went from 218.4 MB to 218.2 MB.
+Total: 10.985611 ms (FindLiveObjects: 0.658090 ms CreateObjectMapping: 0.466702 ms MarkObjects: 9.557943 ms  DeleteObjects: 0.300708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011878 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.865 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3867ms)
+		BeginReloadAssembly (405ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (3099ms)
+			LoadAssemblies (255ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1158ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (173ms)
+			SetupLoadedEditorAssemblies (1357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (948ms)
+				ProcessInitializeOnLoadMethodAttributes (146ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3928 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (152.2 KB). Loaded Objects now: 4437.
+Memory consumption went from 218.4 MB to 218.3 MB.
+Total: 10.973843 ms (FindLiveObjects: 0.653445 ms CreateObjectMapping: 0.537930 ms MarkObjects: 9.475566 ms  DeleteObjects: 0.305044 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011728 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.043 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4045ms)
+		BeginReloadAssembly (390ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (3248ms)
+			LoadAssemblies (247ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1123ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (181ms)
+			SetupLoadedEditorAssemblies (1516ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (213ms)
+				ProcessInitializeOnLoadAttributes (1072ms)
+				ProcessInitializeOnLoadMethodAttributes (176ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3928 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (152.2 KB). Loaded Objects now: 4452.
+Memory consumption went from 218.5 MB to 218.3 MB.
+Total: 10.643095 ms (FindLiveObjects: 0.626811 ms CreateObjectMapping: 0.468870 ms MarkObjects: 9.240821 ms  DeleteObjects: 0.303805 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012244 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.085 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4087ms)
+		BeginReloadAssembly (394ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (3331ms)
+			LoadAssemblies (258ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1116ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (205ms)
+			SetupLoadedEditorAssemblies (1546ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (235ms)
+				ProcessInitializeOnLoadAttributes (1088ms)
+				ProcessInitializeOnLoadMethodAttributes (164ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3928 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (152.3 KB). Loaded Objects now: 4467.
+Memory consumption went from 218.5 MB to 218.3 MB.
+Total: 11.456339 ms (FindLiveObjects: 0.631147 ms CreateObjectMapping: 0.458650 ms MarkObjects: 10.007612 ms  DeleteObjects: 0.355833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011894 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.788 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3790ms)
+		BeginReloadAssembly (407ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (3027ms)
+			LoadAssemblies (251ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1118ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (178ms)
+			SetupLoadedEditorAssemblies (1323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (206ms)
+				ProcessInitializeOnLoadAttributes (924ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3928 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (152.2 KB). Loaded Objects now: 4482.
+Memory consumption went from 218.5 MB to 218.3 MB.
+Total: 10.917789 ms (FindLiveObjects: 0.633934 ms CreateObjectMapping: 0.534834 ms MarkObjects: 9.433138 ms  DeleteObjects: 0.312786 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012729 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.171 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4173ms)
+		BeginReloadAssembly (417ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (3387ms)
+			LoadAssemblies (296ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1110ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (196ms)
+			SetupLoadedEditorAssemblies (1589ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (238ms)
+				ProcessInitializeOnLoadAttributes (1104ms)
+				ProcessInitializeOnLoadMethodAttributes (186ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3928 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (152.2 KB). Loaded Objects now: 4497.
+Memory consumption went from 218.5 MB to 218.4 MB.
+Total: 12.293429 ms (FindLiveObjects: 0.676052 ms CreateObjectMapping: 0.501697 ms MarkObjects: 10.741886 ms  DeleteObjects: 0.371318 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011766 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.834 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3851ms)
+		BeginReloadAssembly (409ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (3086ms)
+			LoadAssemblies (247ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1135ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (187ms)
+			SetupLoadedEditorAssemblies (1329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (207ms)
+				ProcessInitializeOnLoadAttributes (924ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3928 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (152.2 KB). Loaded Objects now: 4512.
+Memory consumption went from 218.6 MB to 218.4 MB.
+Total: 11.166470 ms (FindLiveObjects: 0.711666 ms CreateObjectMapping: 0.467631 ms MarkObjects: 9.677174 ms  DeleteObjects: 0.307212 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
