@@ -4,10 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.AI;
 using System;
+using UnityEngine.Serialization;
 
 public class PlaterSwordA : MonoBehaviour
 {
     UnityEngine.AI.NavMeshAgent agent;
+
 //    Transform player;
     public int HP = 100;
     public Animator animator;
@@ -30,7 +32,7 @@ public class PlaterSwordA : MonoBehaviour
     public float startTimeBtwShors;
 
     public Transform[] targets;
-    public GameObject[] player;
+    public GameObject[] enemy;
 
     private void Start()
     {
@@ -40,140 +42,140 @@ public class PlaterSwordA : MonoBehaviour
 
     private void Update()
     {
-        player = GameObject.FindGameObjectsWithTag("Player");
-        
-        targets = new Transform[player.Length];
+        enemy = GameObject.FindGameObjectsWithTag("Player");
 
-        for (int i = 0; i < player.Length; i ++)
+        targets = new Transform[enemy.Length];
+
+        for (int i = 0; i < enemy.Length; i++)
         {
-            targets[i] = player[i].GetComponent<Transform>();
-        }
+            targets[i] = enemy[i].GetComponent<Transform>();
 
-        healthBar.value = HP;
 
-        if (HP > 0)
-        {
-            if (Vector3.Distance(transform.position, player.position) < AgroDistance)
+            healthBar.value = HP;
+
+            if (HP > 0)
             {
-                transform.LookAt(player);
-                agent.SetDestination(player.position);
-                float distance = Vector3.Distance(transform.position, player.position);
-                agent.isStopped = false;
-                animator.SetBool("idle", false);
-                animator.SetBool("run", true);
-                animator.SetBool("attack", false);
+                if (Vector3.Distance(transform.position, enemy[i].transform.position) < AgroDistance)
+                {
+                    transform.LookAt(enemy[i].transform.position);
+                    agent.SetDestination(enemy[i].transform.position);
+                    float distance = Vector3.Distance(transform.position, enemy[i].transform.position);
+                    agent.isStopped = false;
+                    ResetAnimation("run");
+                }
+
+                if ((Vector3.Distance(transform.position, enemy[i].transform.position) < AgroDistance) &&
+                    (Vector3.Distance(transform.position, enemy[i].transform.position) < AttackDistance))
+                {
+                    if (timeBtwShors <= 0)
+                    {
+                        ResetAnimation("attack");
+                        agent.isStopped = true;
+                        transform.LookAt(enemy[i].transform.position);
+                        weapon.GetComponent<Collider>().enabled = true;
+                        Invoke("ColliderWeapon", 0.6f);
+                        timeBtwShors = startTimeBtwShors;
+                    }
+                    else
+                    {
+                        agent.isStopped = true;
+                        transform.LookAt(enemy[i].transform.position);
+                        ResetAnimation("idle");
+                        timeBtwShors -= Time.deltaTime;
+                    }
+                }
+
+                if (Vector3.Distance(transform.position, enemy[i].transform.position) > AgroDistance)
+                {
+                    if (A.statusPoint == "" || A.statusPoint == "ZaxvatBlue" || A.statusPoint == "ZaxvatRed")
+                    {
+                        if (Vector3.Distance(transform.position, pointA.position) < PointDistanse)
+                        {
+                            agent.isStopped = true;
+                            ResetAnimation("idle");
+                        }
+                        else if (A.statusPoint != "FullZaxvatRed" || A.statusPoint != "FullZaxvatBlue")
+                        {
+                            agent.SetDestination(pointA.position);
+                            float distance = Vector3.Distance(transform.position, pointA.position);
+                            ResetAnimation("run");
+                        }
+                    }
+
+                    if (A.statusPoint == "FullZaxvatRed" || A.statusPoint == "FullZaxvatBlue")
+                    {
+                        if (Vector3.Distance(transform.position, pointB.position) < PointDistanse)
+                        {
+                            agent.isStopped = true;
+                            ResetAnimation("idle");
+                        }
+                        else if (B.statusPoint == "" || B.statusPoint == "ZaxvatBlue" || B.statusPoint == "ZaxvatRed")
+                        {
+                            agent.isStopped = false;
+                            agent.SetDestination(pointB.position);
+                            float distance = Vector3.Distance(transform.position, pointB.position);
+                            ResetAnimation("run");
+                        }
+                    }
+
+                    if ((B.statusPoint == "FullZaxvatRed" && A.statusPoint == "FullZaxvatRed") ||
+                        (B.statusPoint == "FullZaxvatBlue" && A.statusPoint == "FullZaxvatBlue") ||
+                        (B.statusPoint == "FullZaxvatBlue" && A.statusPoint == "FullZaxvatRed") ||
+                        (B.statusPoint == "FullZaxvatRed" && A.statusPoint == "FullZaxvatBlue"))
+                    {
+                        if (Vector3.Distance(transform.position, pointC.position) < PointDistanse)
+                        {
+                            agent.isStopped = true;
+                            ResetAnimation("idle");
+                        }
+                        else if (C.statusPoint == "" || C.statusPoint == "ZaxvatBlue" || C.statusPoint == "ZaxvatRed")
+                        {
+                            agent.isStopped = false;
+                            agent.SetDestination(pointC.position);
+                            float distance = Vector3.Distance(transform.position, pointC.position);
+                            ResetAnimation("run");
+                        }
+                    }
+                }
             }
-            if ((Vector3.Distance(transform.position, player.position) < AgroDistance) && (Vector3.Distance(transform.position, player.position) < AttackDistance))
+            else
             {
-                if (timeBtwShors <= 0)
-                {
-                    animator.SetBool("idle", false);
-                    animator.SetBool("run", false);
-                    animator.SetBool("attack", true);
-                    agent.isStopped = true;
-                    transform.LookAt(player);
-                    weapon.GetComponent<Collider>().enabled = true;
-                    Invoke("ColliderWeapon", 0.6f);
-                    timeBtwShors = startTimeBtwShors;
-                }
-                else
-                {
-                    agent.isStopped = true;
-                    transform.LookAt(player);
-                    animator.SetBool("idle", true);
-                    animator.SetBool("run", false);
-                    animator.SetBool("attack", false);
-                    timeBtwShors -= Time.deltaTime;
-                } 
+                agent.isStopped = true;
+                Cursor.SetActive(false);
+                ResetAnimation("death");
+                healthBar.gameObject.SetActive(false);
+                var coll = GetComponent<CapsuleCollider>();
+                coll.center = new Vector3(0, 30, 0);
+                Invoke("ColliderDead", 0.2f);
+                gameObject.GetComponent<NavMeshAgent>().enabled = false;
             }
-            if (Vector3.Distance(transform.position, player.position) > AgroDistance)              
-            { 
-                if (A.statusPoint == "" || A.statusPoint == "ZaxvatBlue" || A.statusPoint == "ZaxvatRed") 
-                {
-                    if(Vector3.Distance(transform.position, pointA.position) < PointDistanse)
-                    {
-                        agent.isStopped = true;
-                        animator.SetBool("idle", true);
-                        animator.SetBool("run", false);
-                        animator.SetBool("attack", false);
-                    }
-                    else if (A.statusPoint != "FullZaxvatRed" || A.statusPoint != "FullZaxvatBlue")
-                    {
-                        agent.SetDestination(pointA.position);
-                        float distance = Vector3.Distance(transform.position, pointA.position);
-                        animator.SetBool("idle", false);
-                        animator.SetBool("run", true);
-                        animator.SetBool("attack", false);
-                    }
-                }
-                if (A.statusPoint == "FullZaxvatRed"  || A.statusPoint == "FullZaxvatBlue")
-                {
-                    if(Vector3.Distance(transform.position, pointB.position) < PointDistanse)
-                    {
-                        agent.isStopped = true;
-                        animator.SetBool("idle", true);
-                        animator.SetBool("run", false);
-                        animator.SetBool("attack", false);
-                    }
-                    else if (B.statusPoint == "" || B.statusPoint == "ZaxvatBlue" || B.statusPoint == "ZaxvatRed")
-                    {
-                        agent.isStopped = false;
-                        agent.SetDestination(pointB.position);
-                        float distance = Vector3.Distance(transform.position, pointB.position);
-                        animator.SetBool("idle", false);
-                        animator.SetBool("run", true);
-                        animator.SetBool("attack", false);
-                    }
-                }
-                if ((B.statusPoint == "FullZaxvatRed" && A.statusPoint == "FullZaxvatRed") || (B.statusPoint == "FullZaxvatBlue" && A.statusPoint == "FullZaxvatBlue") || (B.statusPoint == "FullZaxvatBlue" && A.statusPoint == "FullZaxvatRed") || (B.statusPoint == "FullZaxvatRed" && A.statusPoint == "FullZaxvatBlue"))
-                {
-                    if(Vector3.Distance(transform.position, pointC.position) < PointDistanse)
-                    {
-                        agent.isStopped = true;
-                        animator.SetBool("idle", true);
-                        animator.SetBool("run", false);
-                        animator.SetBool("attack", false);
-                    }
-                    else if (C.statusPoint == "" || C.statusPoint == "ZaxvatBlue" || C.statusPoint == "ZaxvatRed")
-                    {
-                       agent.isStopped = false;
-                       agent.SetDestination(pointC.position);
-                       float distance = Vector3.Distance(transform.position, pointC.position);
-                       animator.SetBool("idle", false);
-                       animator.SetBool("run", true);
-                       animator.SetBool("attack", false);
-                    }
-                }
-            }
-        }
-        else
-        {
-            agent.isStopped = true;
-            Cursor.SetActive(false);
-            animator.SetBool("death", true);
-            animator.SetBool("idle", false);
-            animator.SetBool("run", false);
-            animator.SetBool("attack", false);
-            healthBar.gameObject.SetActive(false);
-            var coll = GetComponent<CapsuleCollider>();
-            coll.center = new Vector3(0, 30, 0);
-            Invoke("ColliderDead", 0.2f);
-            gameObject.GetComponent<NavMeshAgent>().enabled = false;
         }
     }
+
+    public void ResetAnimation(string nameStateAnimation)
+    {
+        animator.SetBool("death", false);
+        animator.SetBool("idle", false);
+        animator.SetBool("run", false);
+        animator.SetBool("attack", false);
+
+        animator.SetBool(nameStateAnimation, true);
+    }
+
     public void TakeDamage(int damageAmount)
     {
-        HP -= damageAmount;    
+        HP -= damageAmount;
         animator.SetTrigger("damage");
         Instantiate(Blood, bloodPoint.position, transform.rotation);
     }
+
     void ColliderWeapon()
     {
         weapon.GetComponent<Collider>().enabled = false;
     }
+
     void ColliderDead()
     {
         Destroy(gameObject);
     }
-        
 }
