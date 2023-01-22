@@ -15,7 +15,7 @@ D:/Fps Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55895
+61920
 Successfully changed project path to: D:/Fps Game
 D:/Fps Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Fps Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 1061.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 320.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.7f1 (24e8595d6d43)
 [Subsystems] Discovering subsystems at path D:/UnityHub/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -66,44 +66,436 @@ Initialize mono
 Mono path[0] = 'D:/UnityHub/2021.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityHub/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/UnityHub/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityHub/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/UnityHub/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.043172 seconds.
+Registered in 0.006783 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 349.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 315.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.068 seconds
+- Completed reload, in  2.294 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4069ms)
-		BeginReloadAssembly (1775ms)
+	ReloadAssembly (2295ms)
+		BeginReloadAssembly (247ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1830ms)
-			LoadAssemblies (1796ms)
+		EndReloadAssembly (1679ms)
+			LoadAssemblies (244ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (442ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (118ms)
-			SetupLoadedEditorAssemblies (1015ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (949ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (45ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (350ms)
+				RefreshPlugins (316ms)
 				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (435ms)
-				ProcessInitializeOnLoadMethodAttributes (180ms)
+				ProcessInitializeOnLoadAttributes (450ms)
+				ProcessInitializeOnLoadMethodAttributes (155ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.350199 seconds.
+Registered in 0.012226 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Fps Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 315.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.467 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4469ms)
+		BeginReloadAssembly (357ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (3695ms)
+			LoadAssemblies (298ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1155ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (231ms)
+			SetupLoadedEditorAssemblies (1842ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (316ms)
+				BeforeProcessingInitializeOnLoad (281ms)
+				ProcessInitializeOnLoadAttributes (1113ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3936 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (129.0 KB). Loaded Objects now: 4393.
+Memory consumption went from 140.1 MB to 140.0 MB.
+Total: 12.346696 ms (FindLiveObjects: 0.654683 ms CreateObjectMapping: 0.480328 ms MarkObjects: 10.926770 ms  DeleteObjects: 0.283056 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15802.310281 seconds.
+  path: Packages/com.unity.cinemachine/package.json
+  artifactKey: Guid(7d93e7b7399fbe64790358e67fc94b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/package.json using Guid(7d93e7b7399fbe64790358e67fc94b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4f23e0e764e8e32e742984a0d26132') in 0.178780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Packages/com.unity.testtools.codecoverage/package.json
+  artifactKey: Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/package.json using Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2dd2fcfb070eff30dd06220f902a2a') in 0.028424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.508148 seconds.
+  path: Assets/Kenney/Particle samples
+  artifactKey: Guid(4214e541c2600d142a7be0fabd8c7688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples using Guid(4214e541c2600d142a7be0fabd8c7688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8930b460255be7cebd2350a618b232') in 0.003253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.881752 seconds.
+  path: Assets/Kenney/Particle samples/Sprites
+  artifactKey: Guid(fbac37a8e523a944daac2d797bab2f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites using Guid(fbac37a8e523a944daac2d797bab2f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69c2afb80e06e10d743263e34c62147') in 0.016822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043270 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/circle_01.png
+  artifactKey: Guid(b7d66af6397ad6d468d1d381204ff31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/circle_01.png using Guid(b7d66af6397ad6d468d1d381204ff31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3dccca513e8cd646e1dcee04db04d8') in 0.293129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/flame_05.png
+  artifactKey: Guid(454730afc59620249bc824046854daeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/flame_05.png using Guid(454730afc59620249bc824046854daeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7a450e5b7e3c0bdd157af3bfa481bd') in 0.173158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/dirt_03.png
+  artifactKey: Guid(4c808df78ff7c8549b6c469aba6bcc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/dirt_03.png using Guid(4c808df78ff7c8549b6c469aba6bcc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166e4cc21ad0ecb4e4f503d1045a2ff9') in 0.069904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/light_03.png
+  artifactKey: Guid(9d99587d1b4afa94aa6df060d29ba951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/light_03.png using Guid(9d99587d1b4afa94aa6df060d29ba951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05353e8993cf9ae9e3602aa499e750ad') in 0.056229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/dirt_01.png
+  artifactKey: Guid(eba9886abfd521341b997c2455ffba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/dirt_01.png using Guid(eba9886abfd521341b997c2455ffba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef1c814166101f6bfcda50c6d73b957') in 0.074599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/circle_05.png
+  artifactKey: Guid(c883a3002e18b2942a062bb6eae19153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/circle_05.png using Guid(c883a3002e18b2942a062bb6eae19153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cde39daa373938eebfbbb49ace15713') in 0.047351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/circle_03.png
+  artifactKey: Guid(5ce642bf2b5d91b41b7103095e50016f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/circle_03.png using Guid(5ce642bf2b5d91b41b7103095e50016f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d5c74e24e25a2eff144065c58c2efa') in 0.059456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/light_02.png
+  artifactKey: Guid(5210d5a1b8835ef4682ec4c090c87e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/light_02.png using Guid(5210d5a1b8835ef4682ec4c090c87e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd245cfc83ce9a4b391f7bc4f8e0fac7') in 0.047452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/dirt_02.png
+  artifactKey: Guid(7a4f685522fd4f14881f131355fdb027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/dirt_02.png using Guid(7a4f685522fd4f14881f131355fdb027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c060d75ebfd5d0632ba508752d81fdc') in 0.072883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/flame_04.png
+  artifactKey: Guid(8d4f0edc791cb7449a769932ee080be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/flame_04.png using Guid(8d4f0edc791cb7449a769932ee080be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ea307e28c98b4ba121ae27f1218639') in 0.059579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/magic_01.png
+  artifactKey: Guid(fd93eb7c49410d446aca63b76f64fce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/magic_01.png using Guid(fd93eb7c49410d446aca63b76f64fce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0eeb2fcae0f5539d083e6905745347e') in 0.071201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/scratch_01.png
+  artifactKey: Guid(e01c47252ddfac44a96cb7283c9265fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/scratch_01.png using Guid(e01c47252ddfac44a96cb7283c9265fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4078568ba9234c6d18802e19d5a24a0b') in 0.076546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/fire_01.png
+  artifactKey: Guid(5ab34bf6bc8f1bd49a216de44c5c5be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/fire_01.png using Guid(5ab34bf6bc8f1bd49a216de44c5c5be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2af572fb6a57f0109534e23e4d4718') in 0.048820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/muzzle_01.png
+  artifactKey: Guid(09ea7e418ba18b740b08ffa960d43577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/muzzle_01.png using Guid(09ea7e418ba18b740b08ffa960d43577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5af1f2833dd242a64f21148c4c4fd59') in 0.068948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/scorch_03.png
+  artifactKey: Guid(e0d5bb03b64898d469ad97048a10df3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/scorch_03.png using Guid(e0d5bb03b64898d469ad97048a10df3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be2c192c45402afbf6eb2df33502e69') in 0.066244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/muzzle_02.png
+  artifactKey: Guid(87a5b5865ba95c548ad47b15538b40ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/muzzle_02.png using Guid(87a5b5865ba95c548ad47b15538b40ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7f03dcd7bcbefb1d6093ada6193bfa') in 0.138478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/circle_02.png
+  artifactKey: Guid(4e6dbbe8c4ed483409262f419cb1c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/circle_02.png using Guid(4e6dbbe8c4ed483409262f419cb1c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa3a970ea4e8baba0feb36b8dbdc560') in 0.168435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/flare_01.png
+  artifactKey: Guid(2c867b8309fa6b64b848dbc83bd2ec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/flare_01.png using Guid(2c867b8309fa6b64b848dbc83bd2ec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ad0c530da83937e8f77787bce74347') in 0.089880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/slash_02.png
+  artifactKey: Guid(d17dbb8e1a5332b429562bf3db940602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/slash_02.png using Guid(d17dbb8e1a5332b429562bf3db940602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962c2a5ba7826ad7f177da03383b322b') in 0.098433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/scorch_02.png
+  artifactKey: Guid(65c02e8c971753346b2f25d8cde6cb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/scorch_02.png using Guid(65c02e8c971753346b2f25d8cde6cb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe015d791036c28f34ce8de71799566') in 0.096827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/flame_02.png
+  artifactKey: Guid(9d37a6b1631a8004ca900335fcd49fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/flame_02.png using Guid(9d37a6b1631a8004ca900335fcd49fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bb18fbc08a6c49569280c924282ad7') in 0.064691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/magic_05.png
+  artifactKey: Guid(9417a95ee7e3c214e9b35372fd8e9861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/magic_05.png using Guid(9417a95ee7e3c214e9b35372fd8e9861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31606dfb7abfc39d62b9a7bb1b2687b5') in 0.032657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/scorch_01.png
+  artifactKey: Guid(2888b9b27b8769349b0cc926c3d5998d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/scorch_01.png using Guid(2888b9b27b8769349b0cc926c3d5998d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf5485c17922d0fe2b265e6b0dd7887') in 0.071209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/flame_03.png
+  artifactKey: Guid(a2f56c29fcf86194c8b248e7e1fabe42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/flame_03.png using Guid(a2f56c29fcf86194c8b248e7e1fabe42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8e01d7ace981418ecb28c36522a35d') in 0.058843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/flame_01.png
+  artifactKey: Guid(df3b5499918ecd943bd763d7579d9a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/flame_01.png using Guid(df3b5499918ecd943bd763d7579d9a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3b8319dbb3c36ea82f13ccd55f0d2d') in 0.077510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/magic_03.png
+  artifactKey: Guid(75efb7afbe23a4e409faae6ce24e1f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/magic_03.png using Guid(75efb7afbe23a4e409faae6ce24e1f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf4c7117b56ad7651ded0611f55622f') in 0.078297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/muzzle_04.png
+  artifactKey: Guid(bc0f05925fa5dde439683743a1d501d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/muzzle_04.png using Guid(bc0f05925fa5dde439683743a1d501d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fc9f5dcc0105d733ae86893977cde6') in 0.059495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/fire_02.png
+  artifactKey: Guid(47fb911cfc6ca3345ba18cc7aa915f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/fire_02.png using Guid(47fb911cfc6ca3345ba18cc7aa915f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a4a1de116a43bb2945a14801d1ad95') in 0.098652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Kenney/Particle samples/Prefabs/Electricity.prefab
+  artifactKey: Guid(8333d50130027574ca8b4e0268fdd047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Prefabs/Electricity.prefab using Guid(8333d50130027574ca8b4e0268fdd047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb6b18aa27ad0ad201b6da902ea11c9') in 0.290477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Kenney/Particle samples/Prefabs/Hearts.prefab
+  artifactKey: Guid(4fad053d6ff9ef742ae1f144a674382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Prefabs/Hearts.prefab using Guid(4fad053d6ff9ef742ae1f144a674382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd953fd1faed10b390a5de14ebe1e6c86') in 0.091242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Kenney/Particle samples/Prefabs/Smoke.prefab
+  artifactKey: Guid(a9726ee302999a84ea27e4657abb703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Prefabs/Smoke.prefab using Guid(a9726ee302999a84ea27e4657abb703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b93ca346fd37f48a3affc72bfbab31') in 0.219311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Kenney/Particle samples/Prefabs/Magic.prefab
+  artifactKey: Guid(3640199bf9dc32f4da57c37d57581f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Prefabs/Magic.prefab using Guid(3640199bf9dc32f4da57c37d57581f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46a0eaddeef990ada2b91b2859d5d8f') in 0.061296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Kenney/Particle samples/Prefabs/Sparks.prefab
+  artifactKey: Guid(85ab2ba31682fca4e9c1e40ea154ee43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Prefabs/Sparks.prefab using Guid(85ab2ba31682fca4e9c1e40ea154ee43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4a4481c4d6b65882dde6147c40350a') in 0.117709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Kenney/Particle samples/Prefabs
+  artifactKey: Guid(f203023df0aa20746ab72fdf9e70e841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Prefabs using Guid(f203023df0aa20746ab72fdf9e70e841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17292c4748760644e542ed81779eb0e9') in 0.002808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Kenney/Particle samples/Prefabs/Fire.prefab
+  artifactKey: Guid(53ebac442b16db64f9177d0c749cbb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Prefabs/Fire.prefab using Guid(53ebac442b16db64f9177d0c749cbb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ac80996bd4eb75ba4c8f0adcf08b7e') in 0.056863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/magic_04.png
+  artifactKey: Guid(b51229c976aaaf848b73bee2bce7d3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/magic_04.png using Guid(b51229c976aaaf848b73bee2bce7d3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19a593fc84f99e9fe3d2e0b6263183f') in 0.086075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/slash_01.png
+  artifactKey: Guid(602afc0e5be951b4d80d0371b3dbf681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/slash_01.png using Guid(602afc0e5be951b4d80d0371b3dbf681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd713c161875c42ec1519a4f99382be') in 0.050266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/muzzle_03.png
+  artifactKey: Guid(119a881119c216442a26a064d5ae8ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/muzzle_03.png using Guid(119a881119c216442a26a064d5ae8ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c3833da469b5920d36b3686dbd6d7e') in 0.048052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/flame_06.png
+  artifactKey: Guid(8b48a5bd39f0f854c90f08fe158f2820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/flame_06.png using Guid(8b48a5bd39f0f854c90f08fe158f2820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc35cf1b6bb7eb9ecdbc31672d312b7') in 0.101205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/magic_02.png
+  artifactKey: Guid(6e1c93995519b884ab4261eb739fe523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/magic_02.png using Guid(6e1c93995519b884ab4261eb739fe523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891ca3a42543df6dbb91fc0cb4cc6ed3') in 0.067283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/light_01.png
+  artifactKey: Guid(3b0860c3b0cd69840afe2f25901e40bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/light_01.png using Guid(3b0860c3b0cd69840afe2f25901e40bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d211a21691b57e416920c19544cb285') in 0.086066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/circle_04.png
+  artifactKey: Guid(c8369cfef54ed9341b43ec2d62dbc07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/circle_04.png using Guid(c8369cfef54ed9341b43ec2d62dbc07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7d9cc29d3438a040afac4f64f28340') in 0.067304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kenney/Particle samples/Sprites/muzzle_05.png
+  artifactKey: Guid(c858639cf0acb9d4bbd59f106d17d3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Particle samples/Sprites/muzzle_05.png using Guid(c858639cf0acb9d4bbd59f106d17d3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a6c2a75bfe177bc665c43972746381') in 0.092340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.826345 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(c6097ff1ecc38df4581fce574b6dbadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(c6097ff1ecc38df4581fce574b6dbadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62723c290e334e3f253e54427055bd72') in 0.003525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.826744 seconds.
+  path: Assets/StarterAssets/InputSystem/StarterAssets.inputactions
+  artifactKey: Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem/StarterAssets.inputactions using Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7883f8dce8be914b845d2b7353296b62') in 0.096928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/StarterAssets/InputSystem/StarterAssets.inputsettings.asset
+  artifactKey: Guid(9e7be553448fa2546aea5752021cbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem/StarterAssets.inputsettings.asset using Guid(9e7be553448fa2546aea5752021cbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1bac6ac45b977466eabff33ed08503') in 0.005565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.278219 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Scenes
+  artifactKey: Guid(89e5f9b6a0fcdae4e8ccb4b461925e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Scenes using Guid(89e5f9b6a0fcdae4e8ccb4b461925e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a127d53529f65b92f458d3e10fd288') in 0.002598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.845344 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Scenes/Playground.unity
+  artifactKey: Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Scenes/Playground.unity using Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71aaf39f80ad1539db9943d14f04acf') in 0.002992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.685052 seconds.
+  path: Assets/StarterAssets/Editor
+  artifactKey: Guid(577651ee23b1b8342a827136803910fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Editor using Guid(577651ee23b1b8342a827136803910fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fa3d85c32b2b7ab4ced4cfde76d3f9') in 0.003165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.893326 seconds.
+  path: Assets/StarterAssets/Environment
+  artifactKey: Guid(8d8da06649314d7498296c53b4a0a77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment using Guid(8d8da06649314d7498296c53b4a0a77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc81271a020dee4985103a19b0a37f9') in 0.030309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.205203 seconds.
+  path: Assets/StarterAssets/InputSystem
+  artifactKey: Guid(48c9acd554a28814b922162e3fa889b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem using Guid(48c9acd554a28814b922162e3fa889b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344c2cb541083c87c91834cee13bab01') in 0.003683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.372433 seconds.
+  path: Assets/StarterAssets/ThirdPersonController
+  artifactKey: Guid(54b90d7f60b179e4e9909cd127aa060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController using Guid(54b90d7f60b179e4e9909cd127aa060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a0e7b3c6b42ac925750c82348d4c12') in 0.041092 seconds 
